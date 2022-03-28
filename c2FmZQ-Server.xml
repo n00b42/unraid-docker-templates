@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
-  <Name>c2FmZQ-Server</Name>
+  <Name>c2fmzqServer</Name>
   <Date>2022-03-28</Date>
   <Beta>True</Beta>
   <Category>Cloud:</Category>
   <Project>https://github.com/c2FmZQ/c2FmZQ</Project>
   <Registry>https://hub.docker.com/repository/docker/n00b42/private</Registry>
   <GitHub>https://github.com/c2FmZQ/c2FmZQ</GitHub>
-  <Repository>n00b42/private:c2fmzq-server</Repository>
+  <Repository>n00b42/c2fmzq-server</Repository>
   <Support>https://github.com/n00b42/c2FmZQ</Support>
   <Changes>2
 [font size=3]2022.03.28[/font]
-- Test Release
+- Initial Release
   </Changes>
   <Description>
-    c2FmZQ-Server to be used with apps that use a Stingle-compatible API. TODO Description 3.
+    c2fmzq server to be used with apps that use a Stingle-compatible API.
+    Stingle allows secure encryption of media on mobile devices and syncing to a secure server.
+    A modified Stingle client can utilize this self-hosted server instead of the official Stingle service.
   </Description>
-  <Icon></Icon>
+  <Icon>https://github.com/n00b42/stingle-photos-for-self-hosted-server/raw/master/StinglePhotos/src/main/res/drawable-mdpi/ic_logo_round.png</Icon>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
