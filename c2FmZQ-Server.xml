@@ -26,6 +26,13 @@
   <Privileged>false</Privileged>
   <Networking>
     <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8066</HostPort>
+        <ContainerPort>80</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
   </Networking>
   <WebUI>http://[IP]:[PORT:8066]</WebUI>
   <Config Name="Host Port" Target="80" Default="8066" Mode="tcp" Description="Container Port: 80" Type="Port" Display="always" Required="true" Mask="false">8066</Config>
