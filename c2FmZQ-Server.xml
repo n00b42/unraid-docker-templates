@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
   <Name>c2FmZQ-Server</Name>
-  <Date>2000-01-01</Date>
+  <Date>2022-03-28</Date>
   <Beta>True</Beta>
   <Category>Cloud:</Category>
   <Project>https://github.com/c2FmZQ/c2FmZQ</Project>
@@ -14,10 +14,10 @@
 - Test Release
   </Changes>
   <Overview>
-    c2FmZQ-Server to be used with apps that use a Stingle-compatible API.
+    c2FmZQ-Server to be used with apps that use a Stingle-compatible API. #1
   </Overview>
   <Description>
-    c2FmZQ-Server to be used with apps that use a Stingle-compatible API.
+    c2FmZQ-Server to be used with apps that use a Stingle-compatible API. TODO
   </Description>
   <Banner></Banner>
   <Icon></Icon>
