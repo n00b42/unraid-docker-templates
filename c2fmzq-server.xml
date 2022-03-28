@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
   <Name>c2fmzq-server</Name>
-  <Date>2022-03-29</Date>
+  <Date>2022-03-28</Date>
   <Beta>True</Beta>
   <Category>Cloud:</Category>
   <Project>https://github.com/c2FmZQ/c2FmZQ</Project>
@@ -26,6 +26,6 @@ A modified Stingle client can utilize this self-hosted server instead of the off
   </Networking>
   <WebUI>http://[IP]:[PORT:8066]</WebUI>
   <Config Name="Host Port" Target="80" Default="8066" Mode="tcp" Description="Container Port: 80" Type="Port" Display="always" Required="true" Mask="false">8066</Config>
-  <Config Name="Db Path" Target="/data" Default="/mnt/user/appdata/c2fmzq-server/db/" Mode="rw" Description="Container Path: /data" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/c2FmZQ-Server/db/</Config>
+  <Config Name="Db Path" Target="/data" Default="/mnt/user/appdata/c2fmzq-server/db/" Mode="rw" Description="Container Path: /data" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/c2fmzq-Server/db/</Config>
   <Config Name="Server passphrase" Target="C2FMZQ_PASSPHRASE_ENV" Default="" Mode="" Description="Server passphrase to be used for encrypting server data" Type="Variable" Display="always" Required="true" Mask="true"></Config>
 </Containers>
