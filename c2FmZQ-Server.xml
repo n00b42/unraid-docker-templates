@@ -31,5 +31,4 @@
   <Config Name="Host Port" Target="80" Default="8066" Mode="tcp" Description="Container Port: 80" Type="Port" Display="always" Required="true" Mask="false">8066</Config>
   <Config Name="Db Path" Target="/data" Default="/mnt/user/appdata/c2FmZQ-Server/db/" Mode="rw" Description="Container Path: /data" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/c2FmZQ-Server/db/</Config>
   <Config Name="Server passphrase" Target="C2FMZQ_PASSPHRASE_ENV" Default="" Mode="" Description="Server passphrase to be used for encrypting server data" Type="Variable" Display="always" Required="true" Mask="true"></Config>
-
 </Containers>
