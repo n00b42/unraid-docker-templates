@@ -14,8 +14,8 @@
 - Initial Release
   </Changes>
   <Description>
-c2fmzq server to be used with apps that use a Stingle-compatible API.
-Stingle allows secure encryption of media on mobile devices and syncing to a secure server.
+c2fmzq server to be used with apps that use a Stingle-compatible API.\n
+Stingle allows secure encryption of media on mobile devices and syncing to a secure server.\n
 A modified Stingle client can utilize this self-hosted server instead of the official Stingle service.
   </Description>
   <Icon>https://github.com/n00b42/stingle-photos-for-self-hosted-server/raw/master/StinglePhotos/src/main/res/drawable-mdpi/ic_logo_round.png</Icon>
