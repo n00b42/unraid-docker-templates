@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Date>2022-03-28</Date>
+  <Beta>True</Beta>
+  <Category>Cloud:</Category>
+  <Name>c2FmZQ-Server</Name>
+  <Project>https://github.com/c2FmZQ/c2FmZQ</Project>
+  <Changes>
+[font size=3]2022.03.28[/font]
+- Test Release
+  </Changes>
+  <Overview>
+    c2FmZQ-Server to be used with apps that use a Stingle-compatible API.
+  </Overview>
+  <Description>
+    c2FmZQ-Server to be used with apps that use a Stingle-compatible API.
+  </Description>
+  <Registry>https://hub.docker.com/repository/docker/n00b42/private</Registry>
+  <GitHub>https://github.com/c2FmZQ/c2FmZQ</GitHub>
+  <Repository>n00b42/private:c2fmzq-server</Repository>
+  <Support>https://github.com/n00b42/c2FmZQ</Support>
+  <Banner></Banner>
+  <Icon></Icon>
+  <Labels/>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+   <Publish>
+      <Port>
+        <HostPort>8066</HostPort>
+        <ContainerPort>80</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <WebUI>http://[IP]:[PORT:8066]</WebUI>
+  <Environment>
+    <Variable>
+      <Value></Value>
+      <Name>C2FMZQ_PASSPHRASE_ENV</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/c2FmZQ-Server/db</HostDir>
+      <ContainerDir>/data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Config Name="Host Port" Target="80" Default="8066" Mode="tcp" Description="Container Port: 80" Type="Port" Display="always" Required="true" Mask="false">8066</Config>
+  <Config Name="Db Path" Target="/data" Default="/mnt/user/appdata/c2FmZQ-Server/db/" Mode="rw" Description="Container Path: /data" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/c2FmZQ-Server/db/</Config>
+  <Config Name="Server passphrase" Target="C2FMZQ_PASSPHRASE_ENV" Default="" Mode="" Description="Server passphrase to be used for encrypting server data" Type="Variable" Display="always" Required="true" Mask="true"></Config>
+
+</Containers>
