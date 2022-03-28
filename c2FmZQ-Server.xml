@@ -13,15 +13,10 @@
 [font size=3]2022.03.28[/font]
 - Test Release
   </Changes>
-  <Overview>
-    c2FmZQ-Server to be used with apps that use a Stingle-compatible API. #2
-  </Overview>
   <Description>
-    c2FmZQ-Server to be used with apps that use a Stingle-compatible API. TODO
+    c2FmZQ-Server to be used with apps that use a Stingle-compatible API. TODO Description 3.
   </Description>
-  <Banner></Banner>
   <Icon></Icon>
-  <Labels/>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
